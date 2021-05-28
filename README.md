@@ -1,4 +1,4 @@
-# design_patterns_dart
+# Design Patterns com Dart
 Estudo de design patterns com Dart.
 
 - Decorator
