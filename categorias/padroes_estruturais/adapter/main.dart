@@ -36,7 +36,7 @@ class MinhaClasseAdapterParaAdaptee extends MinhaClasseTarget {
   OutraClasseAdaptee adaptee;
 
   /// Construtor - Recebe a instância da classe que queremos adaptar
-  MinhaClasseAdapterParaAdaptee({required this.adaptee});
+  MinhaClasseAdapterParaAdaptee({this.adaptee});
 
   /// Aqui sobrescrevemos o método 'imprimeMensagem' da classe pai fazendo a adaptação
   imprimeMensagem() {

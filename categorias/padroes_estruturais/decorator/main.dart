@@ -1,14 +1,14 @@
-/// 
+///
 /// Decorator Pattern
-/// 
+///
 /// O Decorator é um padrão que nos permite incrementar/decorar um objeto quantas vezes for necessário
-/// 
-/// O exemplo é baseado no vídeo do canal FullCycle: 
+///
+/// O exemplo é baseado no vídeo do canal FullCycle:
 /// https://www.youtube.com/watch?v=ZGr1X-RsvpQ&list=PL5aY_NrL1rjtP1GVk1lxifkeob1F09L4p&index=5
-/// 
+///
 /// Referência:
 /// https://refactoring.guru/pt-br/design-patterns/decorator
-/// 
+///
 main(List<String> args) {
   print('\nMontando o lanche...\n');
 
@@ -54,7 +54,7 @@ class PaoBaguete extends Pao {
 /// Implementação de recheio calabresa
 class RecheioCalabresa extends Pao {
   Pao pao;
-  RecheioCalabresa({required this.pao});
+  RecheioCalabresa({this.pao});
 
   @override
   String get nome => '${pao.nome}, com calabresa';
@@ -65,7 +65,7 @@ class RecheioCalabresa extends Pao {
 /// Implementação de recheio salsicha
 class RecheioSalsicha extends Pao {
   Pao pao;
-  RecheioSalsicha({required this.pao});
+  RecheioSalsicha({this.pao});
 
   @override
   String get nome => '${pao.nome}, com salsicha';
@@ -76,7 +76,7 @@ class RecheioSalsicha extends Pao {
 /// Implementação de recheio frango com requeijão
 class RecheioFrangoComRequeijao extends Pao {
   Pao pao;
-  RecheioFrangoComRequeijao({required this.pao});
+  RecheioFrangoComRequeijao({this.pao});
 
   @override
   String get nome => '${pao.nome}, com frango e requeijão';
