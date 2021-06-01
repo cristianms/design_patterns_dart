@@ -1,4 +1,10 @@
 ///
+/// Factory Method
+///
+/// O padrão factory method possibilita criarmos uma fábrica dinâmica de objetos de um tipo específico.
+/// No exemplo abaixo a fábrica é utilizada como uma abstração de publicador de redes sociais, ou seja cada instância de
+/// publicador precisa implementar os métodos necessários para que também seja um publicador.
+///
 /// Referência: https://refactoring.guru/pt-br/design-patterns/factory-method
 ///
 main(List<String> args) {
@@ -6,12 +12,12 @@ main(List<String> args) {
 
   // Realiza uma publicação para o Facebook
   final publicadorFacebook = PublicadorFacebook('usuario_a', '123456');
-  publicadorFacebook.post('conteudo aaaaaaaaaa');
+  publicadorFacebook.post('Esse texto vai para o Facebook........');
   print('\n');
 
   // Realiza uma publicação para o LinkedIn
   final publicadorLinkIn = PublicadorLinkedIn('usuario_b', '456789');
-  publicadorLinkIn.post('conteudo bbbbbbb bbbbbbbb bbbb');
+  publicadorLinkIn.post('Esse texto será publicado no LinkedIn........');
   print('\n');
 }
 
@@ -61,7 +67,7 @@ class LinkedInConector implements ConectorRedeSocial {
 
 /// Contrato para conectores de redes sociais
 ///
-/// Quando precisar utilizar outras redes sociais basta criar uma nova implementação implementando essa interface
+/// Quando precisar utilizar outras redes sociais basta criar uma nova classe concreta implementando essa interface
 /// Por ex.: 'class TwitterConector implements ConectorRedeSocial'
 abstract class ConectorRedeSocial {
   login();
