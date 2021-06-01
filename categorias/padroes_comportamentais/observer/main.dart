@@ -69,12 +69,6 @@ class QuantidadeObservavel extends Observable {
   /// Propriedade que vamos alterar
   int _contador = 0;
 
-  set contador(valor) {
-    _contador = valor;
-    // Notifica assinantes
-    notifySubscribers();
-  }
-
   incrementar() {
     _contador++;
     // Notifica assinantes
