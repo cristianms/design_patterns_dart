@@ -33,13 +33,13 @@ class OutraClasseAdaptee {
 /// Ou seja essa classe representa um Target porém consegue acessar os métodos do Adaptee
 class MinhaClasseAdapterParaAdaptee extends MinhaClasseTarget {
   /// Classe que
-  OutraClasseAdaptee adaptee;
+  OutraClasseAdaptee? adaptee;
 
   /// Construtor - Recebe a instância da classe que queremos adaptar
   MinhaClasseAdapterParaAdaptee({this.adaptee});
 
   /// Aqui sobrescrevemos o método 'imprimeMensagem' da classe pai fazendo a adaptação
   imprimeMensagem() {
-    print('Mensagem adaptada pelo MeuAdapter(${adaptee.imprimeMensagemEspecifica()})');
+    print('Mensagem adaptada pelo MeuAdapter(${adaptee?.imprimeMensagemEspecifica()})');
   }
 }

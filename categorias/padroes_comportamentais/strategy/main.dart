@@ -57,8 +57,8 @@ class Pedido {
   String cliente;
   num valorTotal;
   Pedido({
-    this.cliente,
-    this.valorTotal,
+    required this.cliente,
+    required this.valorTotal,
   });
 }
 

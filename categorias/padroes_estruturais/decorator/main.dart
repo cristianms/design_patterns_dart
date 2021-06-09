@@ -54,7 +54,7 @@ class PaoBaguete extends Pao {
 /// Implementação de recheio calabresa
 class RecheioCalabresa extends Pao {
   Pao pao;
-  RecheioCalabresa({this.pao});
+  RecheioCalabresa({required this.pao});
 
   @override
   String get nome => '${pao.nome}, com calabresa';
@@ -65,7 +65,7 @@ class RecheioCalabresa extends Pao {
 /// Implementação de recheio salsicha
 class RecheioSalsicha extends Pao {
   Pao pao;
-  RecheioSalsicha({this.pao});
+  RecheioSalsicha({required this.pao});
 
   @override
   String get nome => '${pao.nome}, com salsicha';
@@ -76,7 +76,7 @@ class RecheioSalsicha extends Pao {
 /// Implementação de recheio frango com requeijão
 class RecheioFrangoComRequeijao extends Pao {
   Pao pao;
-  RecheioFrangoComRequeijao({this.pao});
+  RecheioFrangoComRequeijao({required this.pao});
 
   @override
   String get nome => '${pao.nome}, com frango e requeijão';
