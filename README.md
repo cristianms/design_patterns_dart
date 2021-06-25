@@ -6,10 +6,11 @@ Padrões de projeto são soluções típicas para problemas comuns em projeto de
 
 ## Padrões implementados até o momento
 ### Padrões criacionais
-- [X] Abstract Factory
 - [X] Factory Method
-- [X] Singleton
+- [X] Abstract Factory
+- [X] Builder
 - [ ] Prototype
+- [X] Singleton
 
 ### Padrões estruturais
 - [X] Adapter
