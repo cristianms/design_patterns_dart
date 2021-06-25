@@ -9,28 +9,28 @@ Padrões de projeto são soluções típicas para problemas comuns em projeto de
 - [X] Abstract Factory
 - [X] Factory Method
 - [X] Singleton
-- [_] Prototype
+- [] Prototype
 
 ### Padrões estruturais
 - [X] Adapter
-- [_] Bridge
-- [_] Composite
+- [] Bridge
+- [] Composite
 - [X] Decorator
-- [_] Facade
-- [_] Flyeight
-- [_] Prxoy
+- [] Facade
+- [] Flyeight
+- [] Prxoy
 
 ### Padrões comportamentais
-- [_] Chain of Responsability
-- [_] Command
-- [_] Iterator
-- [_] Mediator
-- [_] Memento
+- [] Chain of Responsability
+- [] Command
+- [] Iterator
+- [] Mediator
+- [] Memento
 - [X] Observer
-- [_] State
+- [] State
 - [X] Strategy
-- [_] Template Method
-- [_] Visitor
+- [] Template Method
+- [] Visitor
 
 > Referências: https://refactoring.guru/pt-br/design-patterns
 
