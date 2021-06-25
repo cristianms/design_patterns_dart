@@ -18,8 +18,8 @@ Padrões de projeto são soluções típicas para problemas comuns em projeto de
 - [ ] Composite
 - [X] Decorator
 - [ ] Facade
-- [ ] Flyeight
-- [ ] Prxoy
+- [ ] Flyweight
+- [ ] Proxy
 
 ### Padrões comportamentais
 - [ ] Chain of Responsability
