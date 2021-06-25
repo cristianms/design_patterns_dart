@@ -15,7 +15,7 @@ Padrões de projeto são soluções típicas para problemas comuns em projeto de
 ### Padrões estruturais
 - [X] Adapter
 - [ ] Bridge
-- [ ] Composite
+- [X] Composite
 - [X] Decorator
 - [ ] Facade
 - [ ] Flyweight
@@ -33,4 +33,7 @@ Padrões de projeto são soluções típicas para problemas comuns em projeto de
 - [ ] Template Method
 - [ ] Visitor
 
-> Referências: https://refactoring.guru/pt-br/design-patterns
+> Referências: 
+- 
+- https://refactoring.guru/pt-br/design-patterns
+- https://www.udemy.com/course/padroes-de-projeto-em-java-na-pratica
