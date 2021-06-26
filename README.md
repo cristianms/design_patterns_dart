@@ -34,6 +34,5 @@ Padrões de projeto são soluções típicas para problemas comuns em projeto de
 - [ ] Visitor
 
 > Referências: 
-- 
 - https://refactoring.guru/pt-br/design-patterns
 - https://www.udemy.com/course/padroes-de-projeto-em-java-na-pratica
