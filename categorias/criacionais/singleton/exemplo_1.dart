@@ -31,7 +31,8 @@ main(List<String> args) {
   }
 }
 
-/// Classe para representar a conexão com Singleton
+/// Classe para representar o pool de coneões
+/// Aqui vemos que getInstance é estático de forma que só eistirá uma instância dessa classe
 class ConnectionPool {
   /// Quantidade de conexões liberadas para uso
   static final POOL_SIZE = 2;
