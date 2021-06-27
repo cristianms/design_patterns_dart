@@ -19,13 +19,13 @@ Padrões de projeto são soluções típicas para problemas comuns em projeto de
 - [X] Decorator
 - [X] Facade
 - [X] Flyweight
-- [ ] Proxy
+- [ ] Mediator
+- [X] Proxy
 
 ### Padrões comportamentais
 - [ ] Chain of Responsability
 - [ ] Command
 - [ ] Iterator
-- [ ] Mediator
 - [ ] Memento
 - [X] Observer
 - [ ] State
